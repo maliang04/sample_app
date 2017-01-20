@@ -8,6 +8,9 @@ gem 'rails', '4.1.0'
 
 gem 'bootstrap-sass', '2.3.2.0'
 
+#Password
+gem 'bcrypt-ruby', '3.0.1'
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets
@@ -48,6 +51,8 @@ end
 group :production do
   gem 'pg', '0.15.1'
 end
+
+gem 'rake', '< 11.0'
 
 #gem 'rubyzip',  "~> 1.0.0"
 
